@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), 
+    url(wallpaper.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.signup-box h2 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.signup-box h4{
+    color: white;
+    /* padding: 10px 30px; */
+    text-align: left;
+}
+.signup-box input[type="text"], input[type="password"] ,input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 30px;
+}
+
+.gender{
+    color: white;
+}
+.button{
+    top: 72%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    color: lightblue;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.button a:hover{
+    background-color:rgba(129, 176, 194, 0.911) ;
+    color: black;
+    border-radius: 50px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+/* 
+input[type="submit"]{
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid;
+    color: black;
+    padding:10px 30px ;
+   */
+}
+
